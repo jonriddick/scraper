@@ -1,0 +1,66 @@
+body {
+	background: url('../img/falcons_bg.jpg') repeat;
+	background-size: 250px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+/*h5 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}*/
+
+.articleBody {
+	height: 300px;
+	font-size: 20px;
+	overflow-y: scroll;
+	line-height: 150%;
+}
+
+#nameComment {
+	font-weight: bold;
+	background: #42a5f5;
+	color: white;
+	padding-left: 20px;
+}
+p {
+	padding-left: 20px;
+	padding-bottom: 5px;
+
+
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+	color: #2196f3;
+	padding-left: 20px;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #2196f3;
+	box-shadow: 0 1px 0 0 #000;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+	color: #42a5f5;
+}
+
+.comments {
+	color: white;
+	background-color: #42a5f5;
+	padding: 10px;
+}
+
+.cplink {
+	color: white;
+}
+
