@@ -22,9 +22,8 @@ app.set('view engine', 'handlebars');
 
 // connect to MongoDB and leverage ES6 Promises
 // mongoose.Promise = Promise;
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/scraped_news";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/falcons-scraper";
 mongoose.connect(MONGODB_URI);
-// mongoose.connect('mongodb://localhost/scraped_news');
 
 
 
