@@ -1,4 +1,4 @@
-##Scraper
+## Scraper
 
 This app uses Cheerio to scrape news articles from the Falcoholics website and allows the user to make comments and delete them. Uses MongoDB to store articles and comments.
 
