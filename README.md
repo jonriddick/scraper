@@ -1,4 +1,4 @@
-#Scraper
+##Scraper
 
 This app uses Cheerio to scrape news articles from the Falcoholics website and allows the user to make comments and delete them. Uses MongoDB to store articles and comments.
 
@@ -24,7 +24,7 @@ https://falcons-scraper.herokuapp.com
 - Materialize - Add CDN link http://materializecss.com/getting-started.html
 ```
 
-## Authors
+## Author
 
 * **Jon Riddick** - Full Stack Developer
 *[Git Hub](https://github.com/jon Riddick)
